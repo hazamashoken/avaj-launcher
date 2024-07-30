@@ -5,6 +5,6 @@ all:
 	@cat -e ./simulation.txt
 	
 clean:
-	rm $$(find * -name "*.class")
+	rm -rf com
 	rm ./simulation.txt
 	rm ./sources.txt

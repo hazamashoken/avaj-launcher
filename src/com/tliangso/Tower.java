@@ -1,7 +1,6 @@
 package com.tliangso;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Tower {
     private List<Flyable> observers = new ArrayList<Flyable>();
